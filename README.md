@@ -1,10 +1,10 @@
-#Laravel UUID
+# Laravel UUID
 A simple UUID trait for your eloquent models. 
 
-##Installation
+## Installation
 Install the package via composer `composer require beatsync/laravel-uuid`
 
-##Useage
+## Useage
 
 ```
 <?php
