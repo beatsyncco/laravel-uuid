@@ -1,0 +1,39 @@
+{
+    "name": "beatsync/laravel-uuid",
+    "description": "A simple UUID trait for your Eloquent models.",
+    "keywords": [
+        "uuid",
+        "laravel",
+        "uuid trait",
+        "trait"
+    ],
+    "authors": [
+        {
+            "name": "Chris Bratherton",
+            "email": "chris@beatsync.co",
+            "homepage": "https://beatsync.co",
+            "role": "Founder"
+        }
+    ],
+    "homepage": "https://github.com/beatsyncco/laravel-uuid",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^7.0.0",
+        "ramsey/uuid": "^3.7|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BeatSync\\Uuid\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BeatSync\\Uuid\\UuidServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
