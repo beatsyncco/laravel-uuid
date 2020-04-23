@@ -10,8 +10,6 @@ composer require beatsync/laravel-uuid`
 ## Useage
 
 ```php
-<?php
-
 namespace App;
 
 use BeatSync\Uuid\HasUuid;
