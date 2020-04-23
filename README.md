@@ -2,11 +2,14 @@
 A simple UUID trait for your eloquent models. 
 
 ## Installation
-Install the package via composer `composer require beatsync/laravel-uuid`
+Install the package via composer 
+```bash
+composer require beatsync/laravel-uuid`
+```
 
 ## Useage
 
-```
+```php
 <?php
 
 namespace App;
