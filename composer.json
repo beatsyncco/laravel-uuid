@@ -18,8 +18,8 @@
     "homepage": "https://github.com/beatsyncco/laravel-uuid",
     "license": "MIT",
     "require": {
-        "php": "^7.2",
-        "illuminate/support": "^7.0.0",
+        "php": "^7.3",
+        "illuminate/support": "^8.0.0",
         "ramsey/uuid": "^3.7|^4.0"
     },
     "autoload": {
